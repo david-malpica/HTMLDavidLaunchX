@@ -1,0 +1,69 @@
+:root {
+    --base-color: #FFF8C1;
+    --header-color: #DD6773;
+    --footer-color: #6489A3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+html  {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, p, a {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color: inherit;
+} */
+
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+body {
+    background-color: var(--base-color);
+    min-height: 100vh;
+    font-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: var(--header-color);
+}
+
+.footer {
+    background-color: var(--footer-color);
+}
